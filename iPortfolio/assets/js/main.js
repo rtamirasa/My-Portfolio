@@ -30,8 +30,8 @@
         headerToggle();
       }
     });
-
   });
+  
 
   /**
    * Toggle mobile nav dropdowns

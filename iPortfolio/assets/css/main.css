@@ -116,6 +116,10 @@ h6 {
   padding: 15px;
   margin-bottom: 24px;
 }
+.hidden-hero {
+  display: none;
+}
+
 
 .php-email-form .loading:before {
   content: "";
