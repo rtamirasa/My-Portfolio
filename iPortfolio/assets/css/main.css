@@ -688,13 +688,13 @@ section,
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
-.skills .progress {
+ .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
-
+.skills
 .skills .progress .skill {
   color: var(--heading-color);
   padding: 0;
