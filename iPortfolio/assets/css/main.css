@@ -893,6 +893,73 @@ section,
 .portfolio .portfolio-content:hover img {
   transform: scale(1.1);
 }
+.portfolio .card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.portfolio .card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.portfolio .card-text {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.portfolio .card-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.portfolio .card-link:hover {
+  text-decoration: underline;
+}
+
+.portfolio .card-img-right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  max-height: 100%;
+  max-width: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.card-img-right {
+  flex: 0 0 200px;
+}
+.skills-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tool-bubble {
+  background-color: #87cefa; /* Light blue color */
+  color: white; /* Darker text color for contrast */
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.tool-bubble:hover {
+  background-color:  #87cefa;
+}
+
+
 
 /*--------------------------------------------------------------
 # Services Section
